@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Trust from "./components/Trust";
 import ProductCategories from "./components/ProductCategories";
