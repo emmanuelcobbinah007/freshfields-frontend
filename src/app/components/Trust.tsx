@@ -26,7 +26,7 @@ const Trust = () => {
             </div>
             <div className='flex flex-col items-center p-3'>
                 <img src={(moneyBack as StaticImageData).src} className='w-[30%]' alt='eco-friendly' />
-                <h1 className='text-md font-bold mt-5'>Money-Back Guarantee</h1>
+                <h1 className='text-md font-bold mt-5'>Cash-Back Guarantee</h1>
                 <p className='text-xs text-gray-400 text-center mt-2'>30 days money-back</p>
             </div>
         </div>

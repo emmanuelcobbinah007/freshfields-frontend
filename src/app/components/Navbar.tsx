@@ -23,16 +23,18 @@ const Navbar = () => {
           </Link>
           <div className='hidden md:flex items-center'>
             <Link href='/' passHref>
-              <p className='px-3 flex items-center hover:text-[#489706] hover:cursor-pointer duration-300 hover:scale-105 font-semibold'>Home</p>
+              <p className='px-3 flex items-center hover:text-[#489706] hover:cursor-pointer duration-300 hover:scale-105'>Home</p>
             </Link>
-            <p className='px-3 flex items-center hover:text-[#489706] hover:cursor-pointer duration-300 hover:scale-105 font-semibold'>Shop</p>
-            <p className='px-3 flex items-center hover:text-[#489706] hover:cursor-pointer duration-300 hover:scale-105 font-semibold'>Work With Us</p>
-            <p className='px-3 flex items-center hover:text-[#489706] hover:cursor-pointer duration-300 hover:scale-105 font-semibold'>About Us</p>
+            <p className='px-3 flex items-center hover:text-[#489706] hover:cursor-pointer duration-300 hover:scale-105'>Shop</p>
+            <p className='px-3 flex items-center hover:text-[#489706] hover:cursor-pointer duration-300 hover:scale-105'>Work With Us</p>
+            <p className='px-3 flex items-center hover:text-[#489706] hover:cursor-pointer duration-300 hover:scale-105'>About Us</p>
           </div>
           <div className='hidden md:flex items-center'>
             <CiSearch size={27} className='mx-[5px] hover:bg-gray-200 cursor-pointer rounded-[50%] p-1 duration-300' />
             <CiHeart size={27} className='mx-[5px] hover:bg-gray-200 cursor-pointer rounded-[50%] p-1 duration-300' />
+            <Link href='/sign-in' passHref>
             <CiUser size={27} className='mx-[5px] hover:bg-gray-200 cursor-pointer rounded-[50%] p-1 duration-300' />
+            </Link>
             <CiShoppingBasket size={27} className='mx-[5px] hover:bg-gray-200 cursor-pointer rounded-[50%] p-1 duration-300' />
           </div>
           <div className='md:hidden flex items-center'>
@@ -57,7 +59,9 @@ const Navbar = () => {
             <div className='flex items-center py-2'>
               <CiSearch size={27} className='mx-[5px] hover:bg-gray-200 cursor-pointer rounded-[50%] p-1 duration-300' />
               <CiHeart size={27} className='mx-[5px] hover:bg-gray-200 cursor-pointer rounded-[50%] p-1 duration-300' />
-              <CiUser size={27} className='mx-[5px] hover:bg-gray-200 cursor-pointer rounded-[50%] p-1 duration-300' />
+              <Link href='/sign-in' passHref>
+            <CiUser size={27} className='mx-[5px] hover:bg-gray-200 cursor-pointer rounded-[50%] p-1 duration-300' />
+            </Link>
               <CiShoppingBasket size={27} className='mx-[5px] hover:bg-gray-200 cursor-pointer rounded-[50%] p-1 duration-300' />
             </div>
           </div>
